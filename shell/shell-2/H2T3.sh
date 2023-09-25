@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Tällä "$@" saadaan aikaan se, että voidaan antaa loput määrä argumentteja
+# Tällä "$@" saadaan aikaan se, että voidaan antaa loputon määrä argumentteja
 
 for argument in "$@"
 do
