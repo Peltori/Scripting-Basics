@@ -16,7 +16,7 @@ while true; do
     
     values+=("${item}")
    # echo "index: ${index}, value: ${item}"
-    index=$(( index + 1))
+   # index=$(( index + 1))
 done
 
 for index in ${!values[@]}
