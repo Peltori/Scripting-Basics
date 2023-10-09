@@ -4,7 +4,7 @@
 # All the values are saved in array. Finally script prints out the whole array (line by line) using the following syntax: index: value.
 
 values=()
-index=0
+#index=0
 
 while true; do
     read -p "Anna arvoja ja lopettaaksesi kirjoita 'exit': " item
