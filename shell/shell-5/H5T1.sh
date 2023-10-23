@@ -12,8 +12,9 @@ do
     then
         break
     else
+        touch $HOME/animal.txt
         echo "${input}" | cat >> $HOME/animal.txt
     fi
 done
 
-cat animal.txt
+cat $HOME/animal.txt
