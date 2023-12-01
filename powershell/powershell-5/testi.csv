@@ -1,7 +1,0 @@
-#TYPE Selected.Microsoft.PowerShell.Commands.LocalUser
-"Name";"FullName";"SID";"LastLogon"
-"Administrator";"";"S-1-5-21-2658655319-3801377608-336428567-500";
-"DefaultAccount";"";"S-1-5-21-2658655319-3801377608-336428567-503";
-"Guest";"";"S-1-5-21-2658655319-3801377608-336428567-501";
-"petri";"Petri Peltomaa";"S-1-5-21-2658655319-3801377608-336428567-1001";
-"WDAGUtilityAccount";"";"S-1-5-21-2658655319-3801377608-336428567-504";
