@@ -1,16 +1,12 @@
 ﻿param(
 [string]$filename = 'urls.txt'
 )
-try {
-    if (Test-Path $filename) {
-        $content = Get-Content $filename
-        foreach ($url in $content) { 
-            Start-Process -FilePath Brave -ArgumentList $url
+
+if (Test-Path $filename) {
+    $content = Get-Content $filename
+    foreach ($url in $content) { 
+        Start-Process -FilePath Brave -ArgumentList $url
         }
-    } else {
-        throw "Error: File not found."
-    }
-}
-catch {
-    Write-Host "$_"
+} else {
+    Write-Host "Error: File not found."
 }
