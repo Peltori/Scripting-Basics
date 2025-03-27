@@ -1,1 +1,1 @@
-# This is a basics of scripting course containing some bash and powershell scripts
+# This is a basics of scripting course made in JAMK containing some bash and powershell scripts
