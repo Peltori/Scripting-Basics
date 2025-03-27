@@ -1,0 +1,1 @@
+# This is a basics of scripting course containing some bash and powershell scripts
